@@ -1,0 +1,80 @@
+:root {
+  /* NetNafa Brand Color Palette (Derived from the Official Charging Bull & Golden Arrow Logo) */
+  --brand-navy-dark: #07192F;
+  --brand-navy: #0B2545;
+  --brand-navy-mid: #0E3561;
+  --brand-royal-blue: #0056D2;
+  --brand-royal-light: #1A73E8;
+  --brand-royal-hover: #0043A8;
+  --brand-blue-subtle: #EDF4FE;
+  --brand-blue-border: #D0E1FD;
+
+  /* Radiant 24K Gold & Champagne Accents */
+  --brand-gold: #C8961E;
+  --brand-gold-bright: #E5A93C;
+  --brand-gold-light: #FDF6E2;
+  --brand-gold-border: #F6D68F;
+  --brand-gold-dark: #8C650A;
+  --gold-gradient: linear-gradient(135deg, #ECC46A 0%, #D4A028 50%, #9B700C 100%);
+  --gold-glow: 0 0 15px rgba(229, 169, 60, 0.35);
+  --navy-gradient: linear-gradient(135deg, #07192F 0%, #0B2545 60%, #0E3561 100%);
+  --header-gradient: linear-gradient(135deg, rgba(7, 25, 47, 0.98) 0%, rgba(11, 37, 69, 0.98) 60%, rgba(14, 53, 97, 0.98) 100%);
+
+  /* Neutrals & Surfaces */
+  --bg-smoke: #F8FAFC;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #FAFCFF;
+  --border-color: #E2E8F0;
+  --border-dark: #CBD5E1;
+
+  /* Typography */
+  --text-main: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  --text-inverse: #FFFFFF;
+
+  /* Financial Status Accents */
+  --success: #059669;
+  --success-bg: #ECFDF5;
+  --success-border: #A7F3D0;
+  --danger: #DC2626;
+  --danger-bg: #FEF2F2;
+  --danger-border: #FECACA;
+  --warning: #D97706;
+  --warning-bg: #FFFBEB;
+  --warning-border: #FDE68A;
+  --info: #0284C7;
+  --info-bg: #F0F9FF;
+  --info-border: #BAE6FD;
+
+  /* Fonts */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Radii & Shadows */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  /* Aliases for universal compatibility */
+  --color-navy-dark: var(--brand-navy-dark);
+  --color-navy: var(--brand-navy);
+  --color-blue-primary: var(--brand-royal-blue);
+  --color-border: var(--border-color);
+  --color-border-dark: var(--border-dark);
+  --color-text-main: var(--text-main);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-bg-smoke: var(--bg-smoke);
+  --color-bg-card: var(--bg-card);
+
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 14px rgba(11, 37, 69, 0.08);
+  --shadow-lg: 0 12px 28px rgba(11, 37, 69, 0.12);
+  --shadow-card: 0 1px 3px rgba(11, 37, 69, 0.04), 0 8px 24px -4px rgba(11, 37, 69, 0.06);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
